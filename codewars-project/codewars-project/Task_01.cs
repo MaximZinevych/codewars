@@ -19,13 +19,6 @@ namespace codewars_project
         MakeComplement("ATTGC") => "TAACG"
         MakeComplement("GTAT") => "CATA"
         */
-        static void Main(string[] args)
-        {
-            Console.WriteLine(MakeComplement("ATTGC"));
-            Console.WriteLine(MakeComplement("GTAT"));
-
-            Console.ReadKey();
-        }
 
         public static string MakeComplement(string dna)
         {
